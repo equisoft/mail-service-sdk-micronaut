@@ -28,7 +28,7 @@ public class SendMailPayload {
 	@javax.validation.Valid
 	@com.fasterxml.jackson.annotation.JsonProperty(JSON_PROPERTY_REPLY_TO)
 	@com.fasterxml.jackson.annotation.JsonInclude(com.fasterxml.jackson.annotation.JsonInclude.Include.NON_ABSENT)
-	private @io.micronaut.core.annotation.Nullable ContactSchema replyTo;
+	private @io.micronaut.core.annotation.Nullable SendMailPayloadReplyTo replyTo;
 
 	@javax.validation.Valid
 	@javax.validation.constraints.NotNull
@@ -140,7 +140,7 @@ public class SendMailPayload {
 		return this;
 	}
 
-	public SendMailPayload replyTo(@io.micronaut.core.annotation.Nullable ContactSchema newReplyTo) {
+	public SendMailPayload replyTo(@io.micronaut.core.annotation.Nullable SendMailPayloadReplyTo newReplyTo) {
 		this.replyTo = newReplyTo;
 		return this;
 	}
@@ -196,11 +196,11 @@ public class SendMailPayload {
 		this.bcc = newBcc;
 	}
 
-	public @io.micronaut.core.annotation.Nullable ContactSchema getReplyTo() {
+	public @io.micronaut.core.annotation.Nullable SendMailPayloadReplyTo getReplyTo() {
 		return replyTo;
 	}
 
-	public void setReplyTo(@io.micronaut.core.annotation.Nullable ContactSchema newReplyTo) {
+	public void setReplyTo(@io.micronaut.core.annotation.Nullable SendMailPayloadReplyTo newReplyTo) {
 		this.replyTo = newReplyTo;
 	}
 

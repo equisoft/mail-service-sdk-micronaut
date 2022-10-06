@@ -1,10 +1,10 @@
-# mailservice-sdk-micronaut
+# mail-service-sdk-micronaut
 
 Mail Service
 
-- API version: 0.0.0-SNAPSHOT
+- API version: 0.0.2-SNAPSHOT
 
-- Build date: 2022-08-29T18:08:00.101597500-04:00[America/Toronto]
+- Build date: 2022-10-06T12:22:46.460596305Z[Etc/UTC]
 
 An API to send emails
 
@@ -31,7 +31,7 @@ To install the API client library to your local Maven repository, simply execute
 Add this dependency to your project's build file:
 
 ```kotlin
-implementation("com.equisoft.mailservice.sdk:mailservice-sdk-micronaut:0.0.0-SNAPSHOT")
+implementation("com.equisoft.mailservice.sdk:mail-service-sdk-micronaut:0.0.2-SNAPSHOT")
 ```
 
 ### Maven users
@@ -41,8 +41,8 @@ Add this dependency to your project's POM:
 ```xml
 <dependency>
   <groupId>com.equisoft.mailservice.sdk</groupId>
-  <artifactId>mailservice-sdk-micronaut</artifactId>
-  <version>0.0.0-SNAPSHOT</version>
+  <artifactId>mail-service-sdk-micronaut</artifactId>
+  <version>0.0.2-SNAPSHOT</version>
   <scope>compile</scope>
 </dependency>
 ```
@@ -58,7 +58,7 @@ The generated clients take advantage of [Micronaut's service discovery](https://
 micronaut:
   http:
     services:
-      mailservice:
+      mail-service:
         urls:
           - "https://my-service"
 ```
@@ -100,6 +100,7 @@ Class | Method | HTTP request | Description
  - [MessageBodySchema](MessageBodySchema.md)
  - [MessageSchema](MessageSchema.md)
  - [SendMailPayload](SendMailPayload.md)
+ - [SendMailPayloadReplyTo](SendMailPayloadReplyTo.md)
 
 
 ## Documentation for Authorization

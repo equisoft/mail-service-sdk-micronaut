@@ -3,7 +3,7 @@ package com.equisoft.mailservice.sdk;
 import com.equisoft.mailservice.sdk.models.*;
 
 @jakarta.annotation.Generated("org.openapitools.codegen.languages.MicronautCodegen")
-@io.micronaut.http.client.annotation.Client(id = "mailservice")
+@io.micronaut.http.client.annotation.Client(id = "mail-service")
 public interface MailsApiClient {
 
 	java.lang.String PATH_SEND_MAIL = "/mail/send";
