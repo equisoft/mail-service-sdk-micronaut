@@ -7,3 +7,5 @@ target
 .gradle
 build
 .openapi-generator
+
+.idea
