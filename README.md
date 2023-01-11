@@ -4,7 +4,7 @@ Mail Service
 
 - API version: 0.0.2-SNAPSHOT
 
-- Build date: 2022-11-28T16:02:35.768784992Z[Etc/UTC]
+- Build date: 2023-01-11T19:38:26.011491412Z[Etc/UTC]
 
 An API to send emails
 
